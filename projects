@@ -1,0 +1,38 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/><meta name="title" content="OpenSpace Crowd"/><meta name="description" content="OpenSpace Crowd imagines, explores and builds immersive events for the digital age. Brought to you by Hello Monday, Dogstudio and Set Snail"/><meta property="og:type" content="website"/><meta property="og:url" content="http://localhost:3001"/><meta property="og:title" content="OpenSpace Crowd"/><meta property="og:image" content="/assets/images/share.jpg"/><meta property="og:description" content="OpenSpace Crowd imagines, explores and builds immersive events for the digital age. Brought to you by Hello Monday, Dogstudio and Set Snail"/><meta property="twitter:card" content="summary_large_image"/><meta property="twitter:url" content="http://localhost:3000"/><meta property="twitter:title" content="OpenSpace Crowd"/><meta property="twitter:description" content="OpenSpace Crowd imagines, explores and builds immersive events for the digital age. Brought to you by Hello Monday, Dogstudio and Set Snail"/><meta property="twitter:image" content="/assets/images/share.jpg"/><link rel="apple-touch-icon" sizes="57x57" href="#"/><link rel="apple-touch-icon" sizes="76x76" href="#"/><link rel="apple-touch-icon" sizes="120x120" href="#"/><link rel="apple-touch-icon" sizes="152x152" href="#"/><link rel="icon" type="image/png" href="/favicon.ico"/><link rel="stylesheet" href="/assets/fonts/fonts.css"/><script type="text/javascript" src="/vendors/modernizr.js" async=""></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-DQ3SMER6QR"></script><script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-DQ3SMER6QR');</script><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, viewport-fit=cover, user-scalable=no"/><meta name="next-head-count" content="2"/><link rel="preload" href="/_next/static/css/57102129f61dee914cad.css" as="style"/><link rel="stylesheet" href="/_next/static/css/57102129f61dee914cad.css" data-n-g=""/><link rel="preload" href="/_next/static/css/b009a337edcaf7e7ea6a.css" as="style"/><link rel="stylesheet" href="/_next/static/css/b009a337edcaf7e7ea6a.css" data-n-p=""/><noscript data-n-css=""></noscript><link rel="preload" href="/_next/static/chunks/webpack-e94eaf4a0a4ec38e6e57.js" as="script"/><link rel="preload" href="/_next/static/chunks/framework-c93ed74a065331c4bd75.js" as="script"/><link rel="preload" href="/_next/static/chunks/main-ecc528c757e554601dbf.js" as="script"/><link rel="preload" href="/_next/static/chunks/pages/_app-47ed35b84c9948c42387.js" as="script"/><link rel="preload" href="/_next/static/chunks/pages/projects-3a8d1bbfd5a58960e08c.js" as="script"/></head><body><div id="__next"><main class="Main_site-wrapper__aFkjW"><div class="Loader_loader__3l13D"><div class="Loader_loader__top-bar__2-lrz" style="max-width:0%">0</div><a class="logo Logo_logo__3czVl" href="/"><span class="Logo_logo__text__30DBd">OpenSpacecrowd</span><span class="Logo_logo__live__IB-Yi"><span class="logo__live-bullet Logo_logo__live-bullet__2rIKL" style="background-color:#ee913e"></span>Live</span></a></div></main></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/projects","query":{},"buildId":"UJCV52JSpn_eggPpDY4yN","nextExport":true,"autoExport":true,"isFallback":false,"locale":"en","locales":["en"],"defaultLocale":"en"}</script><script nomodule="" src="/_next/static/chunks/polyfills-eef578260fd80f8fff94.js"></script><script src="/_next/static/chunks/webpack-e94eaf4a0a4ec38e6e57.js" async=""></script><script src="/_next/static/chunks/framework-c93ed74a065331c4bd75.js" async=""></script><script src="/_next/static/chunks/main-ecc528c757e554601dbf.js" async=""></script><script src="/_next/static/chunks/pages/_app-47ed35b84c9948c42387.js" async=""></script><script src="/_next/static/chunks/pages/projects-3a8d1bbfd5a58960e08c.js" async=""></script><script src="/_next/static/UJCV52JSpn_eggPpDY4yN/_buildManifest.js" async=""></script><script src="/_next/static/UJCV52JSpn_eggPpDY4yN/_ssgManifest.js" async=""></script><!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body></html>

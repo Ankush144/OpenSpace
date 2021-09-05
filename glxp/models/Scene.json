@@ -1,0 +1,129 @@
+{
+  "type": "Mesh data",
+  "version": "0.0.1",
+  "bufferLength": 212424,
+  "meshes": [
+    {
+      "name": "Screen",
+      "type": "triangle",
+      "translate": [0, 1, 0],
+      "scale": [1, 1, 1],
+      "rotation": [0, 4.71238898038469, 0],
+      "parent": null,
+      "material": "Defalut",
+      "skin": null,
+      "vertices": { "type": "Float32Array", "length": 918, "offset": 0 },
+      "normal": { "type": "Float32Array", "length": 918, "offset": 918 },
+      "uvs": { "type": "Float32Array", "length": 612, "offset": 1836 },
+      "indices": { "type": "Uint32Array", "length": 876, "offset": 2448 },
+      "vertexIndex": { "type": "Uint32Array", "length": 306, "offset": 3324 }
+    },
+    {
+      "name": "LightMesh",
+      "type": "triangle",
+      "translate": [0, 1, 0],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0],
+      "parent": null,
+      "material": "Defalut",
+      "skin": null,
+      "vertices": { "type": "Float32Array", "length": 444, "offset": 3630 },
+      "normal": { "type": "Float32Array", "length": 444, "offset": 4074 },
+      "uvs": { "type": "Float32Array", "length": 296, "offset": 4518 },
+      "indices": { "type": "Uint32Array", "length": 432, "offset": 4814 },
+      "vertexIndex": { "type": "Uint32Array", "length": 148, "offset": 5246 }
+    },
+    {
+      "name": "People",
+      "type": "triangle",
+      "translate": [4.57964, 0, 4.16305],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0],
+      "parent": null,
+      "material": "People",
+      "skin": null,
+      "vertices": { "type": "Float32Array", "length": 62052, "offset": 5394 },
+      "normal": { "type": "Float32Array", "length": 62052, "offset": 67446 },
+      "uvs": { "type": "Float32Array", "length": 41368, "offset": 129498 },
+      "indices": { "type": "Uint32Array", "length": 20832, "offset": 170866 },
+      "vertexIndex": {
+        "type": "Uint32Array",
+        "length": 20684,
+        "offset": 191698
+      }
+    },
+    {
+      "name": "Ground",
+      "type": "triangle",
+      "translate": [0, -0.1, 0],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0],
+      "parent": null,
+      "material": "Ground",
+      "skin": null,
+      "vertices": { "type": "Float32Array", "length": 12, "offset": 212382 },
+      "normal": { "type": "Float32Array", "length": 12, "offset": 212394 },
+      "uvs": { "type": "Float32Array", "length": 8, "offset": 212406 },
+      "indices": { "type": "Uint32Array", "length": 6, "offset": 212414 },
+      "vertexIndex": { "type": "Uint32Array", "length": 4, "offset": 212420 }
+    },
+    {
+      "name": "TargetCam",
+      "type": "Null",
+      "translate": [133.706, 6.37517, -186.093],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0],
+      "parent": null,
+      "sid": null
+    },
+    {
+      "name": "HomeCamera",
+      "type": "Null",
+      "translate": [974.458, 444.047, 1023.26],
+      "scale": [1, 1, 1],
+      "rotation": [
+        -0.28884151922954954, 0.6075019887294222, -2.1073454454429932e-8
+      ],
+      "parent": null,
+      "sid": null
+    },
+    {
+      "name": "TargetHome",
+      "type": "Null",
+      "translate": [0, 75, 0],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0],
+      "parent": null,
+      "sid": null
+    },
+    {
+      "name": "FocusCamera",
+      "type": "Null",
+      "translate": [697.725, 75.3125, 496.796],
+      "scale": [1, 1, 1],
+      "rotation": [
+        -0.00036486282545866657, 0.9520474363656228, -2.1073454454429932e-8
+      ],
+      "parent": null,
+      "sid": null
+    },
+    {
+      "name": "TargetAbout",
+      "type": "Null",
+      "translate": [71.0789, 10, -182.705],
+      "scale": [1, 1, 1],
+      "rotation": [0, 0, 0],
+      "parent": null,
+      "sid": null
+    },
+    {
+      "name": "AboutCamera",
+      "type": "Null",
+      "translate": [812.108, 2219.32, 194.443],
+      "scale": [1, 1, 1],
+      "rotation": [-1.2108396218635862, 1.100012959691198, -6.283185307179586],
+      "parent": null,
+      "sid": null
+    }
+  ]
+}
